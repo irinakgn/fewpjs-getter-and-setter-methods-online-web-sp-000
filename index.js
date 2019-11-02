@@ -20,7 +20,7 @@ set diameter(value){
     return Math.PI * this.radius * this.radius;
   }
   set circumference(value){
-     this.radius = value/2*Math.PI
+     this.radius = value/(2*Math.PI)
   }
 
 }
